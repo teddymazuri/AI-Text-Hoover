@@ -1,4 +1,4 @@
-# AI-Text-Hoover 🌀
+# AI-Text-Hoover
 
 <div align="center">
 
