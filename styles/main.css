@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bg-primary: #09090b;
+    --bg-secondary: #18181b;
+    --bg-glass: rgba(18, 18, 21, 0.8);
+    --text-primary: #fafafa;
+    --text-secondary: #a1a1aa;
+    --text-tertiary: #71717a;
+    --indigo-500: #6366f1;
+    --indigo-600: #4f46e5;
+    --purple-600: #7c3aed;
+    --amber-500: #f59e0b;
+    --emerald-500: #10b981;
+    --zinc-700: #3f3f46;
+    --zinc-800: #27272a;
+    --border-light: rgba(255, 255, 255, 0.06);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    overflow-x: hidden;
+}
+
+.glass {
+    background: var(--bg-glass);
+    backdrop-filter: blur(14px);
+    border: 1px solid var(--border-light);
+}
+
+.btn-action {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-action:hover {
+    background: var(--zinc-800);
+    transform: scale(1.01);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.hoover-glow {
+    box-shadow: 0 0 40px rgba(99, 102, 241, 0.15);
+}
+
+textarea::placeholder {
+    color: var(--zinc-700);
+}
+
+.success-anim {
+    animation: successPulse 1.2s ease-out;
+}
+
+@keyframes successPulse {
+    0% {
+        background: #1e1b4b;
+        border-color: #4338ca;
+    }
+    100% {
+        background: transparent;
+    }
+}
