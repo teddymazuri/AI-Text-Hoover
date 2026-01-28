@@ -8,8 +8,7 @@
 
 **Suck Up The AI Noise. Instantly. 🚀**
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Try_Now-6366f1?style=for-the-badge)](https://teddymazuri.github.io/AI-Text-Hoover/)
-[![Launch App](https://img.shields.io/badge/⚡_Launch_App-Start_Hoovering-8b5cf6?style=for-the-badge)](https://teddymazuri.github.io/AI-Text-Hoover/app.html)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Try_Now-6366f1?style=for-the-badge)](https://aitexthoover.vercel.app)
 [![GitHub](https://img.shields.io/badge/💻_GitHub-View_Code-black?style=for-the-badge&logo=github)](https://github.com/teddymazuri/AI-Text-Hoover/)
 
 *Scrub. Clean. Humanize.*
